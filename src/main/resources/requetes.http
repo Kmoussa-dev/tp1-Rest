@@ -1,0 +1,24 @@
+###
+POST http://localhost:8080/pdicost.univ-orleans.fr/.m1ws/enjoy/student
+Content-Type: application/json
+
+{"id": 0 ,"nom": "kone","prenom": "zenab"}
+
+###
+POST http://localhost:8080/pdicost.univ-orleans.fr/.m1ws/enjoy/nouveau-etudiant
+Content-Type: application/json
+
+{"id":null,"numeroEtu": "o2175246","nom": "kone","prenom": "moussa"}
+
+###
+GET http://localhost:8080/pdicost.univ-orleans.fr/.m1ws/enjoy/student/1
+
+###
+GET http://localhost:8080/pdicost.univ-orleans.fr/.m1ws/enjoy/students
+
+###
+PUT http://localhost:8080/pdicost.univ-orleans.fr/.m1ws/enjoy/2/identity
+Content-Type: application/json
+
+{"id":1,"nom": "kone","prenom": "moussa mohamed"}
+
